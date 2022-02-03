@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:id="@+id/name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="20sp"
+      android:layout_marginTop="10dp"
+      android:hint="Enter your name"
+      android:inputType="text"
+      android:outlineAmbientShadowColor="@color/black"
+      android:outlineSpotShadowColor="@color/black"
+      android:shadowColor="@color/black"
+      android:textColor="@color/black"
+      android:textColorHighlight="@color/black"
+      android:textColorHint="@color/black"
+      android:textColorLink="@color/black" />
+
+  <Button
+      android:id="@+id/add"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="20sp"
+      android:layout_marginTop="5sp"
+      android:backgroundTint="@color/black"
+      android:text="Add"
+      android:textColor="@color/white" />
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rv"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+      tools:listitem="@layout/item_rv" />
+
+
+</LinearLayout>

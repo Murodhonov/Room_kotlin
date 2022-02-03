@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_customer"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Customer" />
+
+  <Button
+      android:id="@+id/btn_employee"
+      android:layout_width="200sp"
+      android:layout_height="wrap_content"
+      android:text="Employee" />
+
+  <Button
+      android:id="@+id/btn_order"
+      android:layout_width="200sp"
+      android:layout_height="wrap_content"
+      android:text="Order" />
+
+</LinearLayout>
